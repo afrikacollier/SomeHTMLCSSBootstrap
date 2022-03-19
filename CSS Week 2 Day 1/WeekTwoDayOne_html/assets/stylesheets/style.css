@@ -51,10 +51,6 @@ ul {
     float: left;
 }
 
-a {
-    color:white;
-}
-
 .nav-item:hover {
     background-color: blue;
     color: white;
@@ -85,6 +81,14 @@ nav ul li{
     text-align: justify;
 } 
 
+a {
+    color: white;
+}
+
+button {
+    color: red;
+}
+
 button img {
     background-image: url('./assets/images/Search-icon.png');
     background-size: cover;
@@ -92,8 +96,9 @@ button img {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    color: white;
-    background-color: red;
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(9deg) brightness(107%) contrast(101%);
+    background-color: red !important;
+
 } 
 
 .footer {
